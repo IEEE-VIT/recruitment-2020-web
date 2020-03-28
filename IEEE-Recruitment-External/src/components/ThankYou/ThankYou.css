@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+.thank-man {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+    z-index: -100;
+}
+
+.thank-mainPage {
+    background-color: #4b4b4b;
+    opacity: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thank-white-logo {
+    width: 8vw;
+    align-self: center;
+    margin-top: 20px;
+}
+
+
+.thank-footer {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.thank-social {
+    width: 24px;
+    margin: auto 8px;
+    height: 24px;
+}
+
+.thank-social-Twitter {
+    width: 55px;
+    margin: auto 4px;
+}
+
+.centralizer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.thank-you {
+    margin-bottom: 10px;
+}
+
+.thank-p {
+    margin-top: 10px;
+    font-size: 27px;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .thank-man {
+        width: 75vw;
+    }
+
+    .thank-white-logo {
+        width: 30vw;
+    }
+
+
+    .thank-footer {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .thank-social {
+        width: 24px;
+        margin: auto 4px;
+    }
+
+    .thank-social-Twitter {
+        width: 30px;
+        margin: auto 4px;
+    }
+
+    .centralizer {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .thank-you {
+        margin-bottom: 10px;
+    }
+
+    .thank-p {
+        margin-top: 10px;
+        font-size: 27px;
+        color: white;
+        font-family: 'Blinker', sans-serif;
+    }
+}

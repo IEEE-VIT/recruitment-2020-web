@@ -1,0 +1,102 @@
+.moderatorRows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameModerate {
+    grid-area: name;
+    justify-self: stretch;
+}
+
+.regModerate {
+    grid-area: reg;
+}
+
+.interviewModerate {
+    grid-area: interview;
+}
+
+.interviewRoom {
+    grid-area: room;
+}
+
+.button-snooze
+ {
+     border: none;
+     outline: none;
+     background-color: yellow;
+     border-radius: 5px;
+     grid-area: snooze;
+ }
+
+.button-remove
+ {
+     border: none;
+     outline: none;
+     background-color: red;
+     border-radius: 5px;
+     grid-area: removeM;
+ }
+
+.rowGrid {
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    'name reg interview room snooze removeM';
+    grid-gap: 40px 80px;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.row-container{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+    /* vertical-align: middle; */
+}
+
+ @media only screen and (max-width: 600px) {
+    .row-container{
+        width: 96%;
+    }
+
+    .row-container{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin: 6px;
+        flex-wrap: wrap;
+        /* vertical-align: middle; */
+    }
+
+    .rowGrid {
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        'name reg'
+        'interview room'
+        'snooze removeM';
+        grid-gap: 5px 10px;
+        font-size: 22px;
+        font-weight: 800;
+        text-align: center;
+        justify-content: center;
+        word-break: break-all;
+    }
+ }

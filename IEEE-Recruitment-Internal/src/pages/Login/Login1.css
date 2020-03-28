@@ -1,0 +1,160 @@
+.login-heading
+ {
+     font-size: 60px;
+ }
+
+.card-container
+ {
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid black; */
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     font-weight: bolder;
+ }
+
+ .logo-card-container{
+     height: 80vh;
+     width: 30vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: black;
+     color: white;
+     border-radius: 10px 0px 0px 10px;
+     padding: 10px;
+ }
+
+img {
+     height: 60px;
+     width: 150px;
+ }
+
+.form-container
+ {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     height: 80vh;
+     width: 40vw;
+     background-color: #484C59;
+     padding: 15px;
+     border-radius: 0px 10px 10px 0px;
+     color: white;
+     /* align-items: center; */
+     vertical-align: center;
+ }
+
+.form-row
+    {
+        /* justify-content: center; */
+        /* align-items: center; */
+        position: relative;
+        margin: 15px auto;
+        /* border: 2px solid red; */
+    }
+
+.form-row-element {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+span{
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.input-element
+ {
+     border: 1px solid white;
+     border-radius: 4px;
+     outline: none;
+     padding: 10px;
+     background-color: #393E46;/*#393E46*/
+     color: white;
+     border-bottom: 1px solid white;
+     width: 30vw;
+ }
+
+ .btn-login-container{
+     border: none;
+     outline: none;   
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding-left: 10%;
+ }
+
+ .btn-submit-container{
+    border: none;
+    outline: none;   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 10%;
+}
+
+ .btn-login{
+     outline: none;
+     border: none;
+     margin: 10px 0;
+     align-self: flex-start;
+     justify-self: flex-start;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+     padding: 2px 15px;
+     font-weight: bolder;
+ }
+
+ .btn-submit
+  {
+      outline: none;
+      border: none;
+      align-self: left;
+      border-radius: 5px;
+      background-color: black;
+      color: white;
+      font-weight: bolder;
+      padding: 2px 15px;
+  }
+
+  div::-webkit-scrollbar {
+    width: 3px;
+    }
+
+  @media (max-width: 600px) {
+    .logo-card-container{
+        height: 70vh;
+        width: 40vw;
+        font-weight: bolder;
+    }   
+    img {
+        height: 50px;
+        width: 100px;
+    }
+    .form-container
+    {
+     /* display: flex;
+     flex-direction: column;
+     justify-content: flex-start; */
+     height: 70vh;
+     width: 50vw;
+    }
+    .input-element
+        {
+            height: 45%;
+            width: 99%;
+        }
+  }

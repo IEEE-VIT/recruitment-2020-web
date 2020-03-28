@@ -1,0 +1,27 @@
+.titletext {
+    font-family: 'Airborne II Pilot';
+    font-size: 30px;
+    color: #444444;
+    height: 35px;
+    font-weight: lighter;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (min-width:600px) { 
+    .titletext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .success {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+    
+  

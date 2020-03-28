@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+.mainPage {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topHalf {
+    background-color: white;
+    height: 55vh;
+}
+
+.svg-container {
+    width: 100vw;
+    height: auto;
+}
+
+.svg-container svg{
+    width: 100vw;
+    height: 100%;
+}
+
+.top-ellip {
+    display: none;
+}
+
+.top-ellip-desk{
+    display: block;
+    position: absolute;
+    z-index: -100;
+    fill: #4b4b4b;
+}
+
+.bottomHalf {
+    height: 45vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.white-logo {
+    width: 20vw;
+    position: absolute;
+    top: 200px;
+    left: 12vw;
+}
+
+.man {
+    /* width: 46vw; */
+    height: 60vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.rec-logo {
+    position: absolute;
+    width: 16%;
+    top: 41vh;
+    left: 14vw;
+}
+
+.click {
+    position: absolute;
+    top: 60vh;
+    left: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.ptag {
+    color: white;
+    font-family: 'Blinker', sans-serif;
+    font-size: 27px;
+    margin-bottom: 18px;
+    margin-top: -1px;
+}
+
+.down {
+    width: 15%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.main-text {
+    align-self: center;
+    margin-right: 80px;
+    margin-top: 10vh
+}
+
+.text-container-1{
+    font-family: 'Blinker', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #363636;
+}
+
+.text-container-2 {
+    font-family: 'Blinker', sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #363636;
+}
+
+.text-container-3{
+    margin-top: 10px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: #363636;
+}
+
+.footer {
+    bottom: 0px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    /* bottom: 0px; */
+}
+
+.social {
+    width: 25px;
+    margin: auto 8px;
+    height: 25px;
+    /* width: 6%;
+    margin: auto 10px */
+}
+
+.social-Twitter{
+    width: 33px;
+    margin: auto 3px;
+    height: 25px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    /* width: 9%;
+    margin: auto 4px; */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .topHalf {
+        height: 50vh;
+    }
+    
+    .bottomHalf {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .white-logo {
+        width: 30vw;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .man {
+        width: 75vw;
+        height: auto;
+    }
+
+    .rec-logo {
+        position: absolute;
+        width: 30%;
+        top: 35vh;
+        left: 15px;
+    }
+
+    .click {
+        position: absolute;
+        top: 39vh;
+        left: 25px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+    
+    .ptag {
+        color: white;
+        font-family: 'Blinker', sans-serif;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    .down {
+        width: 20%;
+        margin: auto;
+        cursor: pointer;
+    }
+
+
+    /* try to build on this for the shape or get a proper bg */
+    .svg-container {
+        width: 100vw;
+        height: auto;
+    }
+
+    .svg-container svg{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .top-ellip {
+        display: block;
+        position: absolute;
+        z-index: -100;
+        fill: #4b4b4b;
+    }
+
+    .top-ellip-desk{
+        display: none;
+    }
+
+    .main-text {
+        margin: auto;
+        align-self: center;
+        margin-top: 10vh;
+    }
+
+    .text-container-1{
+        font-family: 'Blinker', sans-serif;
+        font-size: 7vw;
+        font-weight: 600;
+        color: #363636;
+    }
+
+    .text-container-2 {
+        font-family: 'Blinker', sans-serif;
+        font-size: 11vw;
+        font-weight: 700;
+        color: #363636;
+    }
+
+    .text-container-3{
+        margin-top: 10px;
+        font-family: 'Blinker', sans-serif;
+        font-size: 5vw;
+        text-align: center;
+        color: #363636;
+    }
+
+    .footer {
+        margin: auto;
+        bottom: 0px;
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .social {
+        width: 27px;
+        margin: auto 8px
+    }
+
+    .social-Twitter{
+        width: 40px;
+        margin: auto 4px;
+    }
+}

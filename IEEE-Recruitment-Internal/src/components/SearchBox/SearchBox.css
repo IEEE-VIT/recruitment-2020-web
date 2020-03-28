@@ -1,0 +1,16 @@
+.searchbox {
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+@media(max-width: 600px) {
+    .searchbox{
+        width: 80%;
+    }
+}

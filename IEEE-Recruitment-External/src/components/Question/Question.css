@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+.ques-mainPage {
+    background-color: #4b4b4b;
+    opacity: 0.87;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ques-man {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: auto;
+    z-index: -100;
+}
+
+.ques-white-logo {
+    width: 8vw;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.domain-list{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:20px;
+    /* background-color: blue; */
+    /* width: fit-content;
+    justify-content: center; */
+
+}
+
+.domain-list-element{
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+    margin: auto 10px;
+    border-radius: 5px;
+    font-family: 'Blinker', sans-serif;
+    flex-wrap: wrap;
+}
+
+.ques-container {
+    width: 60vw;
+    align-self: center;
+    overflow: scroll;
+    /* border: 2px solid red; */
+}
+
+.ques-container::-webkit-scrollbar { width: 0 !important }
+
+.ques-up {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    cursor: pointer;
+}
+
+.ques-down {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.ques-text{
+    align-self: center;
+    word-wrap: break-word;
+    font-size: 22px;
+    font-family: 'Blinker', sans-serif;
+    color: white;
+
+}
+
+.ques-area {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 18px;
+    width: 50vw;
+    height: 30vh;
+    background-color: transparent;
+    text-align: center;
+    border: solid 2px #707070;
+    border-radius: 10px;
+    color: white;
+}
+
+.ques-area-small {
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Blinker', sans-serif;
+    font-size: 18px;
+    width: 30vw;
+    height: 10vh;
+    background-color: transparent;
+    text-align: center;
+    border: solid 2px #707070;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec-name {
+    font-size: 28px;
+    color: white;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.sec-name-btn {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* .something
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ } */
+
+.recaptcha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px auto;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin: 10px auto;
+    padding: 10px auto;
+    justify-content: center;
+    align-items: center; */
+}
+
+.hidden-div
+{
+    display: none;
+}
+
+.ques-footer {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.ques-social {
+    width: 24px;
+    margin: auto 8px;
+    height: 24px;
+}
+
+.ques-social-Twitter {
+    width: 55px;
+    margin: auto 4px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ques-man {
+        width: 75vw;
+    }
+
+    .ques-white-logo {
+        width: 30vw;
+    }
+
+    .domain-list{
+        margin: 21px;
+        flex-direction: column;
+        align-items: center;
+        /* margin: 20px; */
+    }
+
+    .domain-list-element{
+        font-size: 0.8rem;
+        margin: 5px;
+    }
+
+    .ques-container {
+        width: 90vw;
+        align-self: center;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .ques-text{
+        word-break: break-word;
+        font-size: 22px;
+        font-family: 'Blinker', sans-serif;
+        color: white;
+    }
+
+    .ques-area {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Blinker', sans-serif;
+        font-size: 18px;
+        width: 88vw;
+        height: 30vh;
+        background-color: transparent;
+        text-align: center;
+        border: solid 2px #707070;
+        border-radius: 10px;
+    }
+
+    .ques-area-small {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Blinker', sans-serif;
+        font-size: 18px;
+        width: 88vw;
+        height: 20vh;
+        background-color: transparent;
+        text-align: center;
+        border: solid 2px #707070;
+        border-radius: 10px;
+    }
+
+    .sec-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec-name {
+        font-size: 28px;
+        color: white;
+        margin: 10px auto;
+        align-items: center;
+    }
+
+    .sec-name-btn {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        margin: 5px;
+        outline: none;
+    }
+
+    /* .something{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid red;
+    } */
+
+    .ques-footer {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .ques-social {
+        width: 24px;
+        margin: auto 4px;
+    }
+
+    .ques-social-Twitter {
+        width: 30px;
+        margin: auto 4px;
+    }
+}
+
+/* @media only screen and (max-width: 937px) {
+    .ques-container {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+} */

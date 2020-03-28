@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.candidatecard {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.candidatecard h4 {
+    word-break: break-all;
+}
+
+.highlight {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+@media(max-width: 600px) {
+
+    .candidatecard{
+        width: 90%;
+    }
+}
