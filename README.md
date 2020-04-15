@@ -4,7 +4,7 @@ This repository consists of the frontend code of the recruitment portal that we 
 
 ## Project Description
 
-The entire frontend was built in React.js  
+The entire frontend was built in React.js and the backend was built in Django-REST framework.
 There were two website which were built:  
 1. ### External  
     This consisted of the website where a candidate would fill in his details such as their name, registration number, etc. 
@@ -14,6 +14,8 @@ There were two website which were built:
         b. Moderator: There would be a moderator for each room where he/she would be able to see the people present in their room and would be able to view which interviewer called which interviewee from the specific room. They would also be able to remove a certain person from the list.
 
 ## Contributors
+* Sameeran Bandishti (<a href="https://github.com/SameeranB">@SameeranB</a>)
+* Sanskar Jaiswal (<a href="https://github.com/aryan9600">@aryan9600</a>)
 * Ziyan Karmali (<a href="https://github.com/ZiyanK">@ZiyanK</a>)
 * Fenil Jain (<a href="https://github.com/Devil39">@Devil39</a>)
 * Sarthak Pranesh (<a href="https://github.com/sarthakpranesh">@sarthakpranesh</a>)
