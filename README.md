@@ -17,6 +17,6 @@ There were two website which were built:
 * Sameeran Bandishti (<a href="https://github.com/SameeranB">@SameeranB</a>)
 * Sanskar Jaiswal (<a href="https://github.com/aryan9600">@aryan9600</a>)
 * Ziyan Karmali (<a href="https://github.com/ZiyanK">@ZiyanK</a>)
-* Fenil Jain (<a href="https://github.com/feniljain">@Devil39</a>)
+* Fenil Jain (<a href="https://github.com/feniljain">@feniljain</a>)
 * Sarthak Pranesh (<a href="https://github.com/sarthakpranesh">@sarthakpranesh</a>)
 
